@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel & you</title>
+</head>
+<body>
+    <audio autoplay>
+        <source src="music/eminem_-_alfred-interlude — копия.mp3" type="audio/mpeg"><source>
+    </audio>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Bohdan Halunka</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="img/pexels-mati-mango-6330773.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>Never stop.</h2>
+            <h3>Hack this system.<br>Do you believe in God?</h3>
+            <p> <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta in inventore temporibus? Aut enim quisquam maxime exercitationem quis quo, quod blanditiis nam sed at amet iste consequuntur distinctio? Aspernatur minima amet recusandae tempore eaque! Vero</i></p>
+            <a href="https://www.youtube.com/watch?v=nzCIeNhw8oE">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="https://www.instagram.com/bohdan_halunka/" target="_blank"><img src="img/instagram2.png" alt="Instagram icon"></a></li>
+            <li><a href="#" target="_blank"><<img src="img/twitter2.png" alt="Twitter icon"></a></li>
+            <li><a href="#" target="_blank"><<img src="img/facebook2.png" alt="Facebook icon"></a></li>
+        </ul>
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="contact.html">My Instagram</a></li>
+            <li><a href="contact.html">My Twitter</a></li>
+            <li><a href="contact.html">My Facebook</a></li>
+        </ul>
+    </div>
+    <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+    })
+    </script>
+</body>
+</html>  
